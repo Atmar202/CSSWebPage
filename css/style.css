@@ -3,9 +3,32 @@ html {
 }
 body {
     background-color:gray;
+    margin: 0;
+    padding: 0;
 }
 .mainDiv {
     width:600px;
     height:600px;
+    background-color: black;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainDiv > div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
     background-color: red;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
 }

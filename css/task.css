@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+.mainDiv {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    margin: 0 auto;
+    font-size: 0;
+}
+.mainDiv > div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.red, .red-box {
+    background-color: red;
+}
+.yellow, .yellow-box {
+    background-color: yellow;
+}
+.green, .green-box {
+    background-color: green;
+}
+.yellow-box, .green-box, .red-box{
+    border-radius: 50%;
+}
